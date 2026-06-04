@@ -1,0 +1,33 @@
+Release 14.7 Map P.20131013 (lin64)
+Xilinx Map Application Log File for Design 'clk_probe'
+
+Design Information
+------------------
+Command Line   : map -intstyle ise -p xc6slx16-csg324-2 -w -logic_opt off -ol
+high -t 1 -o clk_probe_map.ncd clk_probe.ngd clk_probe.pcf 
+Target Device  : xc6slx16
+Target Package : csg324
+Target Speed   : -2
+Mapper Version : spartan6 -- $Revision: 1.55 $
+Mapped Date    : Fri Jun  5 07:03:33 2026
+
+Mapping design into LUTs...
+Running directed packing...
+ERROR:Pack:2811 - Directed packing was unable to obey the user design
+   constraints (LOC=D11) which requires the combination of the symbols listed
+   below to be packed into a single IOB component.
+
+   The directed pack was not possible because: More than one pad symbol.
+   The symbols involved are:
+   	BUF symbol "led_0_OBUF" (Output Signal = led<0>)
+   	PAD symbol "led<0>" (Pad Signal = led<0>)
+   	PAD symbol "pin_out<7>" (Pad Signal = pin_out<7>)
+
+Mapping completed.
+See MAP report file "clk_probe_map.mrp" for details.
+Problem encountered during the packing phase.
+
+Design Summary
+--------------
+Number of errors   :   1
+Number of warnings :   0

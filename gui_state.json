@@ -193,13 +193,18 @@
     "L3",
     "J3",
     "J1",
-    "H2"
+    "H2",
+    "D11"
   ],
   "checked_pins": [
+    "C10",
+    "A10",
     "N15",
     "T18",
     "U17",
-    "P16"
+    "P15",
+    "P16",
+    "D11"
   ],
   "pin_levels": {
     "C4": true,
@@ -231,8 +236,8 @@
     "C9": true,
     "B9": true,
     "A9": true,
-    "C10": true,
-    "A10": true,
+    "C10": false,
+    "A10": false,
     "G9": true,
     "F9": true,
     "B11": true,
@@ -312,7 +317,7 @@
     "N14": true,
     "L14": true,
     "M13": true,
-    "P15": true,
+    "P15": false,
     "P16": false,
     "T15": true,
     "U16": true,
@@ -395,12 +400,13 @@
     "L3": true,
     "J3": true,
     "J1": true,
-    "H2": true
+    "H2": true,
+    "D11": true
   },
   "known_pins": {
     "U17": "RGBM104",
     "N15": "RGBL100",
     "T18": "RGBR103"
   },
-  "led1": true
+  "led1": false
 }

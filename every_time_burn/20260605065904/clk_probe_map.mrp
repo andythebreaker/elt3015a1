@@ -1,0 +1,39 @@
+Release 14.7 Map P.20131013 (lin64)
+Xilinx Mapping Report File for Design 'clk_probe'
+
+Design Information
+------------------
+Command Line   : map -intstyle ise -p xc6slx16-csg324-2 -w -logic_opt off -ol
+high -t 1 -o clk_probe_map.ncd clk_probe.ngd clk_probe.pcf 
+Target Device  : xc6slx16
+Target Package : csg324
+Target Speed   : -2
+Mapper Version : spartan6 -- $Revision: 1.55 $
+Mapped Date    : Fri Jun  5 06:59:09 2026
+
+Design Summary
+--------------
+Number of errors   :   1
+Number of warnings :   0
+
+Section 1 - Errors
+------------------
+ERROR:Pack:2811 - Directed packing was unable to obey the user design
+   constraints (LOC=D11) which requires the combination of the symbols listed
+   below to be packed into a single IOB component.
+
+   The directed pack was not possible because: More than one pad symbol.
+   The symbols involved are:
+   	BUF symbol "led_0_OBUF" (Output Signal = led<0>)
+   	PAD symbol "led<0>" (Pad Signal = led<0>)
+   	PAD symbol "pin_out<7>" (Pad Signal = pin_out<7>)
+
+Section 2 - Warnings
+--------------------
+
+Section 3 - Informational
+-------------------------
+INFO:MapLib:562 - No environment variables are currently set.
+INFO:LIT:244 - All of the single ended outputs in this design are using slew
+   rate limited output drivers. The delay on speed critical single ended outputs
+   can be dramatically reduced by designating them as fast outputs.
