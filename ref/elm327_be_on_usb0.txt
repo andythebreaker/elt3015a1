@@ -1,6 +1,0 @@
-(base) andy@140:~/verilog_workspace/assume_board_is_nexys3$ ls -l /dev/serial/by-id/ 2>/dev/null
-total 0
-lrwxrwxrwx 1 root root 13 May 17 05:56 usb-Digilent_Digilent_USB_Device_210319789750-if01-port0 -> ../../ttyUSB1
-lrwxrwxrwx 1 root root 13 May 22 04:59 usb-FTDI_FT232R_USB_UART_00000000-if00-port0 -> ../../ttyUSB0
-lrwxrwxrwx 1 root root 13 May 22 06:24 usb-Silicon_Labs_CP2102_USB_to_UART_Bridge_Controller_0001-if00-port0 -> ../../ttyUSB2
-(base) andy@140:~/verilog_workspace/assume_board_is_nexys3$ 

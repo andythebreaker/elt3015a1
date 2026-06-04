@@ -1,1 +1,0 @@
-sudo /home/andy/anaconda3/bin/python ff.py
