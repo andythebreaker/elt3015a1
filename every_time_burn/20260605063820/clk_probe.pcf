@@ -1,0 +1,14 @@
+//! **************************************************************************
+// Written by: Map P.20131013 on Fri Jun 05 06:38:27 2026
+//! **************************************************************************
+
+SCHEMATIC START;
+COMP "led<0>" LOCATE = SITE "D11" LEVEL 1;
+COMP "led<1>" LOCATE = SITE "C11" LEVEL 1;
+COMP "pin_out<0>" LOCATE = SITE "N15" LEVEL 1;
+COMP "pin_out<1>" LOCATE = SITE "T18" LEVEL 1;
+COMP "pin_out<2>" LOCATE = SITE "U17" LEVEL 1;
+COMP "pin_out<3>" LOCATE = SITE "P16" LEVEL 1;
+COMP "clk_in" LOCATE = SITE "U10" LEVEL 1;
+SCHEMATIC END;
+

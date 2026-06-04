@@ -196,7 +196,9 @@
     "H2"
   ],
   "checked_pins": [
-    "P15",
+    "N15",
+    "T18",
+    "U17",
     "P16"
   ],
   "pin_levels": {
@@ -300,10 +302,10 @@
     "N18": true,
     "P17": true,
     "P18": true,
-    "N15": true,
+    "N15": false,
     "N16": true,
     "T17": true,
-    "T18": true,
+    "T18": false,
     "U17": true,
     "U18": true,
     "M14": true,
@@ -395,6 +397,10 @@
     "J1": true,
     "H2": true
   },
-  "known_pins": {},
+  "known_pins": {
+    "U17": "RGBM104",
+    "N15": "RGBL100",
+    "T18": "RGBR103"
+  },
   "led1": true
 }

@@ -1,5 +1,5 @@
 module clk_probe #(
-    parameter integer PIN_COUNT = 4
+    parameter integer PIN_COUNT = 1
 )
 (
     input  wire clk_in,
@@ -13,10 +13,10 @@ always @(posedge clk_in) begin
     cnt <= cnt + 1'b1;
 end
 
-localparam [PIN_COUNT-1:0] PIN_MASK = 4'b0100;
+localparam [PIN_COUNT-1:0] PIN_MASK = 1'b1;
 
 assign pin_out = PIN_MASK;
 assign led[0] = cnt[27];
-assign led[1] = 1'b1;
+assign led[1] = 1'b0;
 
 endmodule
