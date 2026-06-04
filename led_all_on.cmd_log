@@ -1,6 +1,0 @@
-xst -intstyle ise -ifn "/home/andy/verilog_workspace/assume_board_is_nexys3/led_all_on.xst" -ofn "/home/andy/verilog_workspace/assume_board_is_nexys3/led_all_on.syr" 
-ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc blink.ucf -p xc6slx16-csg324-2 led_all_on.ngc led_all_on.ngd  
-map -intstyle ise -p xc6slx16-csg324-2 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o led_all_on_map.ncd led_all_on.ngd led_all_on.pcf 
-par -w -intstyle ise -ol high -mt off led_all_on_map.ncd led_all_on.ncd led_all_on.pcf 
-trce -intstyle ise -v 3 -s 2 -n 3 -fastpaths -xml led_all_on.twx led_all_on.ncd -o led_all_on.twr led_all_on.pcf -ucf blink.ucf 
-bitgen -intstyle ise -f led_all_on.ut led_all_on.ncd 

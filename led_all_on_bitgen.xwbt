@@ -1,8 +1,0 @@
-INTSTYLE=ise
-INFILE=/home/andy/verilog_workspace/assume_board_is_nexys3/led_all_on.ncd
-OUTFILE=/home/andy/verilog_workspace/assume_board_is_nexys3/led_all_on.bit
-FAMILY=Spartan6
-PART=xc6slx16-2csg324
-WORKINGDIR=/home/andy/verilog_workspace/assume_board_is_nexys3
-LICENSE=WebPack
-USER_INFO=213944144_0_0_610

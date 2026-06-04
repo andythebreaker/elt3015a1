@@ -1,6 +1,0 @@
-xst -intstyle ise -ifn "/home/andy/verilog_workspace/assume_board_is_nexys3/led_finder.xst" -ofn "/home/andy/verilog_workspace/assume_board_is_nexys3/led_finder.syr" 
-ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc blink.ucf -p xc6slx16-csg324-2 led_finder.ngc led_finder.ngd  
-map -intstyle ise -p xc6slx16-csg324-2 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o led_finder_map.ncd led_finder.ngd led_finder.pcf 
-par -w -intstyle ise -ol high -mt off led_finder_map.ncd led_finder.ncd led_finder.pcf 
-trce -intstyle ise -v 3 -s 2 -n 3 -fastpaths -xml led_finder.twx led_finder.ncd -o led_finder.twr led_finder.pcf -ucf blink.ucf 
-bitgen -intstyle ise -f led_finder.ut led_finder.ncd 
