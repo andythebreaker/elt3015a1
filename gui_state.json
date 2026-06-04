@@ -193,18 +193,18 @@
     "L3",
     "J3",
     "J1",
-    "H2",
-    "D11"
+    "H2"
   ],
   "checked_pins": [
+    "B9",
+    "A9",
     "C10",
     "A10",
     "N15",
     "T18",
     "U17",
     "P15",
-    "P16",
-    "D11"
+    "P16"
   ],
   "pin_levels": {
     "C4": true,
@@ -307,7 +307,7 @@
     "N18": true,
     "P17": true,
     "P18": true,
-    "N15": false,
+    "N15": true,
     "N16": true,
     "T17": true,
     "T18": false,
@@ -400,8 +400,7 @@
     "L3": true,
     "J3": true,
     "J1": true,
-    "H2": true,
-    "D11": true
+    "H2": true
   },
   "known_pins": {
     "U17": "RGBM104",
