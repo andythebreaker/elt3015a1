@@ -1,0 +1,8 @@
+INTSTYLE=ise
+INFILE=/home/andy/mycode/fpga_gnd_test/assume_board_is_nexys3/every_time_burn/20260605055018/clk_probe.ncd
+OUTFILE=/home/andy/mycode/fpga_gnd_test/assume_board_is_nexys3/every_time_burn/20260605055018/clk_probe.bit
+FAMILY=Spartan6
+PART=xc6slx16-2csg324
+WORKINGDIR=/home/andy/mycode/fpga_gnd_test/assume_board_is_nexys3/every_time_burn/20260605055018
+LICENSE=WebPack
+USER_INFO=213944144_0_0_610

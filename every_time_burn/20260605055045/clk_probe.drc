@@ -1,0 +1,8 @@
+Release 14.7 Drc P.20131013 (lin64)
+Copyright (c) 1995-2013 Xilinx, Inc.  All rights reserved.
+
+Fri Jun  5 05:50:55 2026
+
+drc -z clk_probe.ncd clk_probe.pcf
+
+DRC detected 0 errors and 0 warnings.

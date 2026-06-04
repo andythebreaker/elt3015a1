@@ -8,16 +8,16 @@
 <!-- Copyright (c) 1995-2013 Xilinx, Inc.  All rights reserved.    -->
 
 <messages>
-<msg type="info" file="ProjectMgmt" num="1845" ><arg fmt="%s" index="1">Analyzing Verilog file &quot;/home/andy/verilog_workspace/assume_board_is_nexys3/can_simple_controller.v&quot; into library work</arg>
+<msg type="info" file="ProjectMgmt" num="1845" ><arg fmt="%s" index="1">Analyzing Verilog file &quot;/home/andy/mycode/fpga_gnd_test/assume_board_is_nexys3/can_simple_controller.v&quot; into library work</arg>
 </msg>
 
-<msg type="info" file="ProjectMgmt" num="1845" ><arg fmt="%s" index="1">Analyzing Verilog file &quot;/home/andy/verilog_workspace/assume_board_is_nexys3/index.v&quot; into library work</arg>
+<msg type="info" file="ProjectMgmt" num="1845" ><arg fmt="%s" index="1">Analyzing Verilog file &quot;/home/andy/mycode/fpga_gnd_test/assume_board_is_nexys3/index.v&quot; into library work</arg>
 </msg>
 
-<msg type="info" file="ProjectMgmt" num="1845" ><arg fmt="%s" index="1">Analyzing Verilog file &quot;/home/andy/verilog_workspace/assume_board_is_nexys3/obd_can_node.v&quot; into library work</arg>
+<msg type="info" file="ProjectMgmt" num="1845" ><arg fmt="%s" index="1">Analyzing Verilog file &quot;/home/andy/mycode/fpga_gnd_test/assume_board_is_nexys3/obd_can_node.v&quot; into library work</arg>
 </msg>
 
-<msg type="info" file="ProjectMgmt" num="1845" ><arg fmt="%s" index="1">Analyzing Verilog file &quot;/home/andy/verilog_workspace/assume_board_is_nexys3/uart_tx.v&quot; into library work</arg>
+<msg type="info" file="ProjectMgmt" num="1845" ><arg fmt="%s" index="1">Analyzing Verilog file &quot;/home/andy/mycode/fpga_gnd_test/assume_board_is_nexys3/uart_tx.v&quot; into library work</arg>
 </msg>
 
 </messages>

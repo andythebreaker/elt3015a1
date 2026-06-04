@@ -1,0 +1,3 @@
+verilog work "uart_tx.v"
+verilog work "can_simple_controller.v"
+verilog work "obd_can_node.v"
